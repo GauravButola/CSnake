@@ -9,7 +9,7 @@
 #COMPILATION
   Run the following command for compilation -- 
 		
-		gcc -o snake snake\ 0.6.c
+		gcc -o snake CSnake.c
 
 #KNOWN ISSUES
    
