@@ -1,4 +1,7 @@
-#Start the game (on Linux)
+###Demo
+![Demo](demo.gif)
+
+###Start the game (on Linux)
    Right click on the file "start.sh" --> Properties --> Permissions --> click on "Allow executing file as program" --> close
 
    Now, double click on "start.sh" --> "Run in terminal".
@@ -6,13 +9,13 @@
 
    On Windows, double click on snake.exe to play.
 
-#COMPILATION
-  Run the following command for compilation -- 
-		
+###COMPILATION
+  Run the following command for compilation --
+
 		gcc CSnake.c -o CSnake
 
-#KNOWN ISSUES
-   
+###KNOWN ISSUES
+
    As the main functionality has been added already (which was the intent),
    I didn't care to develop it further.
    1. Game crashes when snake reaches the edge, no boundary limit has been defined for the snake to crawl.
